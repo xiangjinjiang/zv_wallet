@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_start.png" translatesAutoresizingMaskIntoConstraints="NO" id="x6P-Sm-9v0">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="438"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="x6P-Sm-9v0" secondAttribute="height" multiplier="125:146" id="Ff0-B6-ch1"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VEv-GA-yCf">
+                    <rect key="frame" x="0.0" y="438" width="375" height="229"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_startlogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="UpY-mn-FFf">
+                            <rect key="frame" x="72.5" y="87" width="230" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="9db-uE-ZgA"/>
+                                <constraint firstAttribute="width" constant="230" id="LrO-YK-LBO"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="UpY-mn-FFf" firstAttribute="centerY" secondItem="VEv-GA-yCf" secondAttribute="centerY" id="cxe-fj-eqe"/>
+                        <constraint firstItem="UpY-mn-FFf" firstAttribute="centerX" secondItem="VEv-GA-yCf" secondAttribute="centerX" id="tQY-eB-QuH"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="x6P-Sm-9v0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EeM-8c-Owa"/>
+                <constraint firstAttribute="bottom" secondItem="VEv-GA-yCf" secondAttribute="bottom" id="PXC-dn-xAa"/>
+                <constraint firstAttribute="trailing" secondItem="VEv-GA-yCf" secondAttribute="trailing" id="Szz-y1-6yp"/>
+                <constraint firstItem="VEv-GA-yCf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="VMh-mj-oO6"/>
+                <constraint firstAttribute="trailing" secondItem="x6P-Sm-9v0" secondAttribute="trailing" id="lf1-Lp-ROu"/>
+                <constraint firstItem="x6P-Sm-9v0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="pYl-O1-gtM"/>
+                <constraint firstItem="VEv-GA-yCf" firstAttribute="top" secondItem="x6P-Sm-9v0" secondAttribute="bottom" id="uNZ-wR-y2u"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="474.39999999999998" y="489.80509745127438"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_start.png" width="375" height="438"/>
+        <image name="img_startlogo.png" width="230" height="55"/>
+    </resources>
+</document>

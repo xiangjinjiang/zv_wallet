@@ -1,0 +1,4 @@
+<resources>
+	<string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">czUaQifi-pjmLgiox2pQ2PzPxe-e93c940e3-f3e2-406d-921a-719a060ff3fd</string>
+    <string name="app_name">Neubank</string>
+</resources>

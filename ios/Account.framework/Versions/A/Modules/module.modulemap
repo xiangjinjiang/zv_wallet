@@ -1,0 +1,8 @@
+framework module "Account" {
+	header "ref.h"
+    header "Account.objc.h"
+    header "Universe.objc.h"
+    header "Account.h"
+
+    export *
+}

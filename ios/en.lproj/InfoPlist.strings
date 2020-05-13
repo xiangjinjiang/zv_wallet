@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  Neubank
+
+  Created by mac on 2019/12/9.
+  Copyright © 2019 Facebook. All rights reserved.
+*/
+CFBundleDisplayName = "ZV Wallet";
